@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1> Registration</h1>
+    <form action="main.py" method="post">
+        <div>
+            <label for="name">Name:</label>
+        <input type="text" placeholder="Enter full name" id="name"   maxlength="10" required>
+        </div><br>
+        <div>
+            <label for="email">Email id:</label>
+        <input type="email" placeholder="Enter Email id" id="email" maxlength="20" required>
+        </div><br>
+        <div>
+            <label for="ph">Phone no:</label>
+            <select name="phon" id="ph">
+                <option value="+91" selected>+91</option>
+            </select>
+            <input type="number" maxlength="10" id="ph">
+        </div><br>
+        <div>
+            <label for="address">Address:</label>
+        <textarea name="address" id="address" placeholder="Enter the address here"></textarea>
+        </div><br>
+        <div>
+            <label for="gen">Gender:</label>
+            <input type="radio" name=gen id="m" value="male">
+            <label for="m">Male</label>
+            <input type="radio" name="gen" id="f" value="female">
+            <label for="f">Female</label>
+        </div><br>
+        <div>
+            <label for="br" center  >select the course:</label>
+            <select name="branch" id="br" multiple>
+                <option value="">select course</option>
+                <optgroup label="Engineering">
+                <option value="CSE">CSE</option>
+                <option value="civil">civil</option>
+                </optgroup>
+                <optgroup label="others">
+                <option value="electrical">electrical</option>
+                <option value="IT">IT</option>
+                <option value="AIML">AIML</option>
+                </optgroup>
+                
+            </select>
+        </div><br><br>
+
+        <div>
+            <label for="fi">Upload Documents:</label>
+            <input type="file" id="fi">
+            
+        </div><br>
+    
+        <div>
+            <label for="sub">Select Subjects:</label>
+            <input type="checkbox" id="en" value="eng">
+            <label for="en"> English</label>
+            <input type="checkbox" id="cp" value="cpp">
+            <label for="cp">C++</label>
+            <input type="checkbox" id="jav" value="java">
+            <label for="jav">Java</label>
+            <input type="checkbox" id="py" value="python">
+            <label for="py">Python</label>
+
+        </div><br>
+        
+        <div>
+
+            <a href="https://mitwpu.edu.in/about-us/about-mit"  style="margin-right: 200px;" >Aboutcollege</a>
+            <a href="https://admissions.mitwpu.edu.in/?utm_source=Google&utm_medium=srv-gsn-awareness&utm_campaign=sitelink&gad_source=1&gad_campaignid=22125335206&gbraid=0AAAAAC4rM84qLuc00SXoagH71qB-OTMhT&gclid=CjwKCAjw3MXBBhAzEiwA0vLXQfowmRafpQnzTUUdHwUiu3yeQulsdemmEcNHOPtUCxYisZi7Lxi84RoCrX0QAvD_BwE#application-form" style="margin-right: 200px;">ApplyNow</a>
+        </div><br><br>
+        <div>
+           <b><input type="submit" size="35px" style="margin-right:200px ;"></b>
+           <b><input type="reset" size="35px"></b>
+           <hr>
+        </div>
+          <label for="ab"><h3><b>About our college:</b></h3></label>
+        <div>
+          
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/ATMGRvqPqyQ?si=-xpeE26I7TTBBt3P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+        </div><br><br>
+        <div>
+            <b><label for="img"> Our college campus photos:</label></b>
+
+        </div><br>
+        <img src="./MIT.jpg" alt="clgimg" height="500" width="500">
+    
+
+        
+        
+
+    </form>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+</body>
+</html>
