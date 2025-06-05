@@ -1,0 +1,19 @@
+#card{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 50px 60px;
+    margin: 300px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+
+}
+body{
+    background-color: pink;;
+}

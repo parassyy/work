@@ -8,7 +8,8 @@ img{
 }
 body{
     height: 100vh;
-    background-color: azure;
+    background-color: gray ;
+
 }
 #card{
     max-width: 50vw;
@@ -31,6 +32,7 @@ button{
 }
 .fa-brands{
     margin: 5px 10px;
+    color: palevioletred;
 }
 a{
     text-decoration: 2px solid blue underline;
