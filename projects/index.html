@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shaadi.com - Find Your Perfect Match</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <span class="logo-main">Shaadi</span><span class="logo-dot">.com</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#profiles">Profiles</a></li>
+                    <li><a href="#register">Register</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div>
+                <h1>Find Your <span class="highlight">Life Partner</span> Today</h1>
+                <p>Join Shaadi.com, India's leading matrimonial site trusted by millions. Your perfect match could be just a click away!</p>
+                <a href="#register" class="cta-btn">Get Started</a>
+            </div>
+            <img src="./virt.png" alt="Happy Couple" class="hero-img">
+            <img src="./cup1.png" alt="couple" class="hero-img">
+            <img src="./image.png" alt="couple" class="hero-img">
+        </div>
+    </section>
+    <!-- Profile Section -->
+    <section class="profiles" id="profiles">
+        <div class="container">
+            <h2 class="section-title">Featured Profiles</h2>
+            <div class="profiles-grid">
+                <div class="profile-card">
+                    <img src="./tigher.png" alt="Profile 1">
+                    <div class="profile-info">
+                        <h3>Tiger shroff</h3>
+                        <p>28, Mumbai</p>
+                        <span class="profile-tag">Bolloywood actor</span>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <img src="./paras.jpg" alt="Profile 2">
+                    <div class="profile-info">
+                        <h3>Paras Yadav</h3>
+                        <p>22, Hydrabad</p>
+                        <span class="profile-tag">Engineer</span>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <img src="./sai.png" alt="Profile 3">
+                    <div class="profile-info">
+                        <h3>Sai pallavi</h3>
+                        <p>24, Pune</p>
+                        <span class="profile-tag">Queen of india</span>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <img src="./salman.png" alt="Profile 4">
+                    <div class="profile-info">
+                        <h3>Salman Khan</h3>
+                        <p>40, mumbai</p>
+                        <span class="profile-tag"> Actor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Registration Form -->
+    <section class="register" id="register">
+        <div class="container register-flex">
+            <div class="register-info">
+                <h2>Register Free</h2>
+                <p>Sign up and start your search for the perfect partner.</p>
+            </div>
+            <form class="register-form">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" placeholder="Enter your name" required>
+                <label for="gender">Gender</label>
+                <select id="gender" required>
+                    <option value="">Choose...</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="Enter your age" min="18" max="80" required>
+                <label for="city">City</label>
+                <input type="text" id="city" placeholder="Enter your city" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Register Now</button>
+            </form>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Members Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"Thanks to Shaadi.com, I found my soulmate! The experience was easy and enjoyable."</p>
+                    <span>- Anjali & Sunil</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"A safe and trustworthy platform for serious relationships. Highly recommend!"</p>
+                    <span>- Pooja & Karan</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Great matches, great site. The best matrimonial service out there!"</p>
+                    <span>- Meena & Rajeev</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container footer-flex">
+            <div>
+                <span class="logo-main">Shaadi</span><span class="logo-dot">.com</span>
+            </div>
+            <ul>
+                <li><a href="#profiles">Profiles</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+            <div class="copyright">
+                &copy; This web site made by mr.Paras Yadav _Shaadi.com. All rights reserved.
+            </div>
+        </div>
+    </footer>
